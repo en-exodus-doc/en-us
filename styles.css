@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #262640;
+}
+
+.header .nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.download-btn {
+    background-color: #8e44ad;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 100px 20px;
+    background: linear-gradient(to right, #3b3b61, #262640);
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hero-btn {
+    background: #6a67d8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: #564bbf;
+}
